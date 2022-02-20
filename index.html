@@ -1,0 +1,46 @@
+<table style="width: 410px; font-size: 10pt; font-family: Arial, sans-serif;" cellpadding="0" cellspacing="0" class="ng-scope">
+    <tbody>
+     <tr>
+      <td style="font-size: 10pt; font-family: Arial, sans-serif; border-right: 1px solid; border-right-color: #0079ac; width: 105px; padding-right: 10px; vertical-align: top; text-align: center;" valign="top" rowspan="6" align="center">
+       <!-- ngIf: showField('photo') --><img ng-if="showField('photo')" ng-src="img/s-l1600.jpg" alt="photograph" width="132" border="0" style="border:0; height:auto; width:132px" class="ng-scope" src="img/s-l1600.jpg"><!-- end ngIf: showField('photo') -->
+      </td>
+     <td>
+      <table cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td style="font-size: 10pt; color:#0079ac; font-family: Arial, sans-serif; width: 305px; padding-bottom: 5px; padding-left: 10px; vertical-align: top; line-height:25px;" valign="top">
+           <strong><span style="font-size: 14pt; font-family: Arial, sans-serif; color:#0079ac;" class="ng-binding">Meghna khatun<br></span></strong>
+           <!-- ngIf: showField('title') --><span ng-if="showField('title')" style="font-family: Arial, sans-serif; font-size:10pt; color:#444444;" class="ng-binding ng-scope">Web Designer</span><!-- end ngIf: showField('title') -->
+           <!-- ngIf: isEveryFieldEntered('title, company') --><span ng-if="isEveryFieldEntered('title, company')" style="font-family: Arial, sans-serif; font-size:10pt; color:#444444;" class="ng-scope"> | </span><!-- end ngIf: isEveryFieldEntered('title, company') -->
+           <!-- ngIf: showField('company') --><span ng-if="showField('company')" style="font-family: Arial, sans-serif; font-size:10pt; color:#444444;" class="ng-binding ng-scope">MSM</span><!-- end ngIf: showField('company') -->     
+          </td>
+        </tr> 
+        <tr>
+          <td style="font-size: 10pt; color:#444444; font-family: Arial, sans-serif; padding-bottom: 5px; padding-top: 5px; padding-left: 10px; vertical-align: top;" valign="top">
+            <!-- ngIf: showField('mobile') --><span ng-if="showField('mobile')" class="ng-scope"><span style="color: #0079ac;"><strong>m:</strong></span><span style="font-size: 10pt; font-family: Arial, sans-serif; color:#444444;" class="ng-binding"> 02369558425<br></span></span><!-- end ngIf: showField('mobile') -->
+            <!-- ngIf: showField('phone') --><span ng-if="showField('phone')" class="ng-scope"><span style="color: #0079ac;"><strong>p:</strong></span><span style="font-size: 10pt; font-family: Arial, sans-serif; color:#444444;" class="ng-binding"> (800) 555-0199<br></span></span><!-- end ngIf: showField('phone') -->
+            <!-- ngIf: showField('email') --><span ng-if="showField('email')" class="ng-scope"><span style="color: #0079ac;"><strong>e:</strong></span><span style="font-size: 10pt; font-family: Arial, sans-serif; color:#444444;" class="ng-binding"> megnakhatunm@gmail.com</span></span><!-- end ngIf: showField('email') -->
+          </td>
+        </tr>
+        <!-- ngIf: isAnyFieldEntered('address1, address2') --><tr ng-if="isAnyFieldEntered('address1, address2')" class="ng-scope">
+          <td style="font-size: 10pt; font-family: Arial, sans-serif; padding-bottom: 5px; padding-top: 5px; padding-left: 10px; vertical-align: top; color: #0079ac;" valign="top">
+            <!-- ngIf: showField('address1') --><span ng-if="showField('address1')" style="font-size: 10pt; font-family: Arial, sans-serif; color: #0079ac;" class="ng-binding ng-scope">Bondor bazar<!-- ngIf: showField('address2') --><span ng-if="showField('address2')" class="ng-scope"><br></span><!-- end ngIf: showField('address2') --></span><!-- end ngIf: showField('address1') -->
+            <!-- ngIf: showField('address2') --><span ng-if="showField('address2')" style="font-size: 10pt; font-family: Arial, sans-serif; color: #0079ac;" class="ng-binding ng-scope">Bondor bazar,Singra Natore</span><!-- end ngIf: showField('address2') -->
+          </td>
+        </tr><!-- end ngIf: isAnyFieldEntered('address1, address2') -->
+        <tr>
+          <td style="font-size: 10pt; font-family: Arial, sans-serif; padding-bottom: 5px; padding-top: 5px; padding-left: 10px; vertical-align: top; color: #0079ac;" valign="top">
+            <a href="http://www.meghnakhatun.tk" target="_blank" rel="noopener" style="text-decoration:none;"><span style="font-size: 10pt; font-family: Arial, sans-serif; color: #0079ac;" class="ng-binding">www.meghnakhatun.tk</span></a>
+          </td>
+        </tr>
+        <!-- ngIf: isAnyFieldEntered('facebookURL, twitterURL, youtubeURL, linkedinURL, instagramURL, pinterestURL') --><tr ng-if="isAnyFieldEntered('facebookURL, twitterURL, youtubeURL, linkedinURL, instagramURL, pinterestURL')" class="ng-scope">
+          <td style="font-size: 10pt; font-family: Arial, sans-serif; padding-bottom: 5px; padding-top: 5px; padding-left: 10px; vertical-align: top;" valign="top">
+            <!-- ngIf: showField('facebookURL') --><span ng-if="showField('facebookURL')" class="ng-scope"><a href="https://www.facebook.com/meghna khatun" target="_blank" rel="noopener"><img border="0" width="23" ng-src="https://www.facebook.com/profile.php?id=100077780252563" alt="facebook icon" style="border:0; height:23px; width:23px" src="https://raw.githubusercontent.com/megna12345/megna/main/fb2.png"></a>&nbsp;</span><!-- end ngIf: showField('facebookURL') --><!-- ngIf: showField('pinterestURL') -->
+          </td>
+         </tr><!-- end ngIf: isAnyFieldEntered('facebookURL, twitterURL, youtubeURL, linkedinURL, instagramURL, pinterestURL') -->
+        
+      </tbody>
+      </table>
+     </td></tr> 
+    </tbody>
+    </table>
